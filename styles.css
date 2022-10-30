@@ -1,0 +1,51 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    display: table;
+    width: 100%;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+
+thead {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+th {
+    color: white;
+    background-color: slategray;
+}
+
+table td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td.spanned {
+    text-align: center;
+}
+
+td.DayOfWeek {
+    color: white;
+    background-color: slategray;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+table tbody > tr:hover {
+    background-color: lightblue ;
+}
+
+th.footer {
+    background-color: darkslategray;
+}
+
+tfoot {
+    color: white;
+}
